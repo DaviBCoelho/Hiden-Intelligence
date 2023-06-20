@@ -70,7 +70,9 @@
         </div>
       </nav>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-    <button type="button" class="btn btn-outline-success" style="width: 100px;">Jump!</button>
+    
+    <audio id="sound1" src="./Images/jump.mp3" preload="auto"></audio>
+    <button type="button" class="btn btn-outline-success" style="width: 100px;" onclick="document.getElementById('sound1').play();">Jump!</button>
 
     <div class="alert alert-success" role="alert">
         Authorize!
